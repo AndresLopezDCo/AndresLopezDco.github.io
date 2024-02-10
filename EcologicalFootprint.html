@@ -1,0 +1,485 @@
+<!DOCTYPE HTML>
+<!--
+	Helios by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Andres Lopez HealthProjectBC</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="no-sidebar is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<div id="header">
+
+					<!-- Inner -->
+						<div class="inner">
+							<header>
+								<h1><a href="index.html" id="logo"> Andres Lopez</a></h1>
+							</header>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li><a href="HealtcareBC.html">Health Project BC - PowerBI</a> </li>
+								<li><a href="EcologicalFootprint.html">Ecological Footprint - Tableau</a></li>
+								<li><a href="PrioritizationMatrix">Prioritization Matrix - PowerBI</a></li>
+								<li><a href="https://github.com/AndresLopezDCo/DS4A-Team76">Data Science for ALL - Team 76</a></li>
+							</ul>
+						</nav>
+				</div>
+
+			<!-- Main -->
+				<div class="wrapper style1">
+
+					<div class="container">
+						<article id="main" class="special">
+							<header>
+								<h2><a href="#">Ecological Footprint dashboard - Tableau</a></h2>
+								<p>
+									In this project, I investigated the ecological footprint of various countries to understand their impact on the environment. 
+									The ecological footprint serves as a critical metric, quantifying the balance between the resources a population consumes 
+									and the Earth's capacity to regenerate those resources. Understanding this balance is essential for addressing environmental 
+									sustainability and resource management challenges.
+								</p>
+							</header>
+							<div class='tableauPlaceholder' id='viz1707553982233' style='position: relative'>
+								<noscript>
+									<a href='#'>
+										<img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;9D&#47;9DQJ5QP6R&#47;1_rss.png' style='border: none' />
+									</a>
+								</noscript>
+								<object class='tableauViz'  style='display:none;'>
+									<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+									<param name='embed_code_version' value='3' />
+									<param name='path' value='shared&#47;9DQJ5QP6R' />
+									<param name='toolbar' value='yes' />
+									<param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;9D&#47;9DQJ5QP6R&#47;1.png' />
+									<param name='animate_transition' value='yes' />
+									<param name='display_static_image' value='yes' />
+									<param name='display_spinner' value='yes' />
+									<param name='display_overlay' value='yes' />
+									<param name='display_count' value='yes' />
+									<param name='language' value='en-US' />
+								</object>
+							</div>
+							<!-- <a href="#" class="image featured"><img src="images/EcologicalFootprint/EFconsumption-GDP.png" alt="" /></a> -->
+
+							<section>
+								<header>
+									<h3>Data Source</h3>
+								</header>
+								<p>
+									The data was sourced from an Open data platform, <a href= https://data.footprintnetwork.org/#/countryTrends?cn=5001&type=BCtot,EFCtot'> Data Footprint Network</a> </a>
+									This website ensures access to reliable and publicly available information, a renowned organization dedicated to sustainability research and advocacy. 
+									To extract the information, I established a connection to an API, which provided comprehensive ecological footprint metrics for various countries. 
+									Prior to analysis, I conducted thorough data integrity checks and preprocessing steps to ensure the accuracy and consistency of the dataset. 
+									The data provided is clean, however, it is necessary to address the table formatting to long format. As well as integrating other datasets 
+									for comprehensive analysis. 
+								</p>
+
+							</section>
+							<section>
+								<header>
+									<h3>Methodology</h3>
+								</header>
+
+								<p>The <strong> Ecological footprint</strong> is a measure of human impact on the environment, encompassing factors such as resource consumption, waste generation, 
+									land use change, and carbon emissions. Therefore, we will find ecological footprint measures like carbon footprint, built-up land, Forest, 
+									Croland or Grazing and Fhisheries.</p>
+								<p> The <strong>Total Ecological Footprint (EF) consumption</strong> would be the sum of the ecological footprint production and the net ecological footprint of trade.  Where 
+									the EF-production  is the sum of bioproductive areas, a measure that measure that mirror the Gross domestic product.</p>
+								<p><strong>Biocapacity</strong> refers to the Earth's capacity to regenerate renewable resources and absorb waste, such as carbon dioxide emissions, 
+									within a specific area and time period. It is measured in terms of hectares of biologically productive land and water.</p>	
+		                        <p>An <strong>Ecological deficit</strong> occurs when a population's demand for ecological resources and services exceeds the biocapacity 
+									available within its territory.</p>
+								<p>
+								    <strong>Ecological reserve</strong> refers to the surplus of biologically productive land and water area within a region compared to its ecological footprint. 
+									In other words, it represents the capacity of the region's ecosystems to regenerate resources and absorb waste, exceeding the demands placed on 
+									them by human activities.</p>
+							</section>
+
+							<section>
+
+								<div class='tableauPlaceholder' id='viz1707527935487' style='position: relative'>
+									<noscript>
+										<a href='#'>
+											<img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ZR&#47;ZRPMY73X6&#47;1_rss.png' style='border: none' />
+										</a>
+									</noscript>
+									<object class='tableauViz'  style='display:none;'>
+										<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+										<param name='embed_code_version' value='3' />
+										<param name='path' value='shared&#47;ZRPMY73X6' />
+										<param name='toolbar' value='yes' />
+										<param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ZR&#47;ZRPMY73X6&#47;1.png' />
+										<param name='animate_transition' value='yes' />
+										<param name='display_static_image' value='yes' />
+										<param name='display_spinner' value='yes' />
+										<param name='display_overlay' value='yes' />
+										<param name='display_count' value='yes' />
+										<param name='language' value='en-US' />
+									</object>
+								</div>
+
+								<p> The world population has experienced significant growth, as represented by the green line. Seemingly following a linear trend. However, upon closer examination, 
+									the growth rate indicates a slight deceleration, suggesting that while the population continues to expand, it is doing so at a 
+									slower pace compared to previous years.</p>
+
+								<p>Simultaneously, the red line representing ecological footprint consumption shows a slight increase in demand per capita. This indicates that despite the slowdown 
+									in population growth, the individual consumption of resources is on the rise</p>
+
+                                <p>However, it's important to note that this global perspective masks significant variations among countries. For instance, in the United States, there has been a 
+									slight decrease in demand per capita, while in China, it has increased. These differences likely reflect variations in economic performance and shifts in 
+									population demographics.</p>
+									
+								<p>It's crucial to recognize that despite the increase in demand, the supply of natural resources remains finite. Therefore, even as consumption rises, 
+									the capacity of ecosystems to regenerate those resources may be diminishing, posing sustainability challenges for the future.</p>	
+								
+							
+
+								<div class='tableauPlaceholder' id='viz1707528832107' style='position: relative'>
+									<noscript>
+										<a href='#'>
+											<img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;TK&#47;TKB3WWKN7&#47;1_rss.png' style='border: none' />
+										</a>
+									</noscript>
+									<object class='tableauViz' style='display:none;'>
+										<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+										<param name='embed_code_version' value='3' />
+										<param name='path' value='shared&#47;TKB3WWKN7' />
+										<param name='toolbar' value='yes' />
+										<param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;TK&#47;TKB3WWKN7&#47;1.png' />
+										<param name='animate_transition' value='yes' />
+										<param name='display_static_image' value='yes' />
+										<param name='display_spinner' value='yes' />
+										<param name='display_overlay' value='yes' />
+										<param name='display_count' value='yes' />
+										<param name='language' value='en-US' />
+									</object>
+								</div>
+
+								<p>Globally, the predominant use of land resources is for carbon sequestration or energy production. This includes areas designated 
+									for fossil fuel extraction, renewable energy infrastructure, and carbon sinks.
+									Following carbon-related land use, a significant portion of land is dedicated to food production. This includes agricultural 
+									land used for crop cultivation, livestock grazing, and aquaculture.</p>	
+								<p>	Forest land ranks third in terms of global land usage, encompassing areas of natural forest cover as well as managed forests 
+									for timber production, conservation, and ecosystem services. </p>
+
+								<p> While these global trends offer a broad overview, there are significant regional variations in land usage patterns.
+									For instance, countries with abundant natural resources may prioritize energy production, while agrarian economies 
+									may allocate more land for food cultivation. Additionally, socio-economic factors, policy decisions, and environmental considerations influence how countries manage their land resources.</p>	
+
+								<div class='tableauPlaceholder' id='viz1707528881192' style='position: relative'>
+									<noscript>
+										<a href='#'>
+											<img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;HW&#47;HW8948TZP&#47;1_rss.png' style='border: none' />
+										</a>
+									</noscript>
+									<object class='tableauViz'  style='display:none;'>
+										<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+										<param name='embed_code_version' value='3' />
+										<param name='path' value='shared&#47;HW8948TZP' />
+										<param name='toolbar' value='yes' />
+										<param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;HW&#47;HW8948TZP&#47;1.png' />
+										<param name='animate_transition' value='yes' />
+										<param name='display_static_image' value='yes' />
+										<param name='display_spinner' value='yes' />
+										<param name='display_overlay' value='yes' />
+										<param name='display_count' value='yes' />
+										<param name='language' value='en-US' />
+									</object>
+								</div>
+								<p>
+									Ecological deficit occurs when a population's demand for ecological resources and services surpasses 
+									the biocapacity available within its territory. This imbalance necessitates the importation of resources 
+									to meet the deficit, placing additional strain on global ecosystems.
+								</p>
+
+								<p>
+									Prior to 1970, human reliance on Earth's resources was manageable, with extraction rates aligned 
+									with the planet's regenerative abilities. However, post-1970, there has been a stark shift. The 
+									escalation of resource utilization, including timber, freshwater, and arable land, has accelerated 
+									beyond Earth's replenishment rate. This heightened consumption has led to widespread habitat degradation, 
+									deforestation, soil erosion, and loss of biodiversity.
+								</p>
+								<p> In summary, since 1970, we've been using Earth's resources faster than it can replace them, causing damage 
+									to the environment and making it harder for life to thrive on our planet.</p>
+
+								<p> The consequences of our unsustainable resource utilization are profound and far-reaching. Deforestation 
+									has displaced wildlife, disrupted ecosystems, and compromised carbon sequestration. Diminishing 
+									vegetation cover has exacerbated climate change, impacting weather patterns and air quality. Furthermore, 
+									soil degradation threatens agricultural productivity, exacerbating food insecurity and undermining ecosystem resilience.</p>
+
+								<div class='tableauPlaceholder' id='viz1707393209742' style='position: relative'>
+									<noscript>
+										<a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;5T&#47;5THGNG72J&#47;1_rss.png' style='border: none' /></a>
+									</noscript>
+									<object class='tableauViz'  style='display:none;'>
+										<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+										<param name='embed_code_version' value='3' />
+										<param name='path' value='shared&#47;5THGNG72J' />
+										<param name='toolbar' value='yes' />
+										<param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;5T&#47;5THGNG72J&#47;1.png' />
+										<param name='animate_transition' value='yes' />
+										<param name='display_static_image' value='yes' />
+										<param name='display_spinner' value='yes' />
+										<param name='display_overlay' value='yes' />
+										<param name='display_count' value='yes' />
+										<param name='language' value='en-US' />
+									</object>
+								</div>
+
+								<p> In general, countries with high gross domestic products (GDPs) are often in ecological deficit due to 
+									higher levels of consumption and resource-intensive lifestyles.
+									Additionally, countries that are densely populated relative to their land area may face ecological deficits, 
+									as the demand for resources exceeds the region's carrying capacity.
+
+								</p>
+	
+							</section>
+						</article>
+
+
+					</div>
+
+				</div>
+			<!-- Footer -->
+			<div id="footer">
+				<div class="container">
+					<header>
+						<h2>Other Projects</h2>
+					</header>
+					<div class="row">
+						<!-- Posts -->
+							<section class="col-4 col-12-mobile">
+								<header>
+								</header>
+								<ul class="divided">
+									<li>
+										<article class="post stub">
+											<header>
+												<h3><a href="HealtcareBC.html">Mental Health Project - BC</a></h3>
+											</header>
+											<p> Tableau, R </p>
+										</article>
+									</li>
+									<li>
+										<article class="post stub">
+											<header>
+												<h3><a href="PrioritizationMatrix.html">PrioritizationMatrix</a></h3>
+											</header>
+											<p>Python, PowerBI</p>
+										</article>
+									</li>
+									<li>
+										<article class="post stub">
+											<header>
+												<h3><a href="https://github.com/AndresLopezDCo/DS4A-Team76">ECCAR Polsters</a></h3>
+											</header>
+											<p>Technologies: Python, AWS EC2, AWS </p>
+										</article>
+									</li>
+								</ul>
+							</section>
+						<!-- Tweets -->
+						<section class="col-4 col-12-mobile">
+							<header>
+							</header>
+							<ul class="divided">
+								<li>
+									<article class="tweet">
+										Optimizing mental health resource allocation by conducting a comprehensive assessment of existing facilities. 
+									</article>
+								</li>
+								<li>
+									<article class="tweet"> 
+										This project involves the use of data from instrumented inspections as a cost-effective means to pinpoint metal loss areas and potential leaks.
+									</article>
+								</li>
+								<li>
+									<article class="tweet">
+										End-to-End project to examine the influence of socio-demographic variables on job rotation and productivity 
+										among pollsters.
+									</article>
+								</li>
+
+							</ul>
+						</section>
+						<!-- Photos -->
+							<section class="col-4 col-12-mobile">
+								<header>
+								</header>
+								<div class="row gtr-25">
+									<div class="col-6">
+										<a href="EcologicalFootPrint.html" class="image fit"><img src="images/EcologicalFootprint/MapEcologicalF.png" alt="" /></a>
+									</div>
+									<div class="col-6">
+										<a href="EcologicalFootPrint.html" class="image fit"><img src="images/EcologicalFootprint/SupplyDemandEcologicalF.png" alt="" /></a>
+									</div>
+									<div class="col-6">
+										<a href="PrioritizationMatrix.html" class="image fit"><img src="images/PrioritizationMatrix/DistributionErrorMatrix.png" alt="" /></a>
+									</div>
+									<div class="col-6">
+										<a href="PrioritizationMatrix.html" class="image fit"><img src="images/PrioritizationMatrix/ComparissonMatrix.png" alt="" /></a>
+									</div>
+									<div class="col-6">
+										<a href="https://github.com/AndresLopezDCo/DS4A-Team76" class="image fit"><img src="images/CNC/Kmeans-ECC.png" alt="" /></a>
+									</div>
+									<div class="col-6">
+										<a href="https://github.com/AndresLopezDCo/DS4A-Team76" class="image fit"><img src="images/CNC/Radar-ECC.png" alt="" /></a>
+									</div>
+								</div>
+							</section>
+
+					</div>
+						<hr />
+						<div class="row">
+							<div class="col-12">
+
+								<!-- Contact -->
+								<section class="contact">
+									<header>
+										<h3>Thank you for exploring my data analysis and visualization portfolio.</h3>
+									</header>
+									<p>If you have any questions, suggestions, or if you're interested in collaboration, 
+										feel free to reach out! I'm always excited to connect with people passionate about data.</p>
+									<p>	Email: andreslopez.dco@gmail.com</p>
+									<ul class="icons">
+										<li><a href="https://www.linkedin.com/in/andres-david-lopez/" class="icon brands fa-linkedin-in"><span class="label">Linkedin</span></a></li>
+									</ul>
+								</section>
+
+								<!-- Copyright -->
+									<div class="copyright">
+										<ul class="menu">
+											li>&copy; Untitled. All rights reserved.</li>
+										</ul>
+									</div>
+
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script type='text/javascript'>
+				var divElement = document.getElementById('viz1707553982233');
+				var vizElement = divElement.getElementsByTagName('object')[0];
+				vizElement.style.width='100%';
+				vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+				var scriptElement = document.createElement('script');
+				scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+				vizElement.parentNode.insertBefore(scriptElement, vizElement);
+			</script>
+			<script type='text/javascript'>
+				var divElement = document.getElementById('viz1707393209742');
+				var vizElement = divElement.getElementsByTagName('object')[0];
+				if (divElement.offsetWidth > 800) {
+					vizElement.style.minWidth='1366px';
+					vizElement.style.maxWidth='100%';
+					vizElement.style.minHeight='818px';
+					vizElement.style.maxHeight=(divElement.offsetWidth*0.75)+'px';
+				} else if (divElement.offsetWidth > 500) {
+					vizElement.style.minWidth='1366px';
+					vizElement.style.maxWidth='100%';
+					vizElement.style.minHeight='818px';
+					vizElement.style.maxHeight=(divElement.offsetWidth*0.75)+'px';
+				} else {
+					vizElement.style.width='100%';
+					vizElement.style.minHeight='1900px';
+					vizElement.style.maxHeight=(divElement.offsetWidth*1.77)+'px';
+				}
+				var scriptElement = document.createElement('script');
+				scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+				vizElement.parentNode.insertBefore(scriptElement, vizElement);
+			</script>
+			<script type='text/javascript'> 
+				var divElement = document.getElementById('viz1707527935487'); 
+				var vizElement = divElement.getElementsByTagName('object')[0]; 
+				if ( divElement.offsetWidth > 800 ) {
+					vizElement.style.minWidth='1366px';
+					vizElement.style.maxWidth='100%';
+					vizElement.style.minHeight='818px';
+					vizElement.style.maxHeight=(divElement.offsetWidth0*0.75)+'px';
+				} else if ( divElement.offsetWidth > 500 ) {
+					vizElement.style.minWidth='1366px';
+					vizElement.style.maxWidth='100%';
+					vizElement.style.minHeight='818px';
+					vizElement.style.maxHeight=(divElement.offsetWidth*0.75)+'px';
+				} else { 
+					vizElement.style.width='100%';
+					vizElement.style.minHeight='1900px';
+					vizElement.style.maxHeight=(divElement.offsetWidth*1.77)+'px';
+				} 
+				var scriptElement = document.createElement('script'); 
+				scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; 
+				vizElement.parentNode.insertBefore(scriptElement, vizElement); 
+			</script>
+			<script type='text/javascript'> 
+				var divElement = document.getElementById('viz1707528832107'); 
+				var vizElement = divElement.getElementsByTagName('object')[0]; 
+				if ( divElement.offsetWidth > 800 ) {
+					vizElement.style.minWidth='1366px';
+					vizElement.style.maxWidth='100%';
+					vizElement.style.minHeight='818px';
+					vizElement.style.maxHeight=(divElement.offsetWidth0*0.75)+'px';
+				} else if ( divElement.offsetWidth > 500 ) {
+					vizElement.style.minWidth='1366px';
+					vizElement.style.maxWidth='100%';
+					vizElement.style.minHeight='818px';
+					vizElement.style.maxHeight=(divElement.offsetWidth*0.75)+'px';
+				} else { 
+					vizElement.style.width='100%';
+					vizElement.style.minHeight='1900px';
+					vizElement.style.maxHeight=(divElement.offsetWidth*1.77)+'px';
+				} 
+				var scriptElement = document.createElement('script'); 
+				scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; 
+				vizElement.parentNode.insertBefore(scriptElement, vizElement); 
+			</script>
+			<script type='text/javascript'> 
+				var divElement = document.getElementById('viz1707528881192'); 
+				var vizElement = divElement.getElementsByTagName('object')[0]; 
+				if ( divElement.offsetWidth > 800 ) {
+					vizElement.style.minWidth='1366px';
+					vizElement.style.maxWidth='100%';
+					vizElement.style.minHeight='818px';
+					vizElement.style.maxHeight=(divElement.offsetWidth0*0.75)+'px';
+				} else if ( divElement.offsetWidth > 500 ) {
+					vizElement.style.minWidth='1366px';
+					vizElement.style.maxWidth='100%';
+					vizElement.style.minHeight='818px';
+					vizElement.style.maxHeight=(divElement.offsetWidth*0.75)+'px';
+				} else { 
+					vizElement.style.width='100%';
+					vizElement.style.minHeight='1900px';
+					vizElement.style.maxHeight=(divElement.offsetWidth*1.77)+'px';
+				} 
+				var scriptElement = document.createElement('script'); 
+				scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; 
+				vizElement.parentNode.insertBefore(scriptElement, vizElement); 
+			</script>			
+
+
+	</body>
+</html>
